@@ -1,4 +1,4 @@
-# Protoss Micro Bot (Ares Framework)
+# Terran Micro Bot (Ares Framework)
 
 A micro bot for RL training in a combat arena.
 
@@ -70,7 +70,7 @@ Note: `run.py` already sets Terran by default. If you set another value in `conf
 - `bot/main.py`: bot logic
 - `run.py`: local execution and map selection
 - `config.yml`: name/race/general config
-- `protoss_builds.yml`: present in the project, but not used by this micro bot
+- `terran_builds.yml`: present in the project, but not used by this micro bot
 
 ## Publish to a new GitHub repository
 
@@ -79,7 +79,7 @@ Quick checklist:
 ```bash
 git init
 git add .
-git commit -m "Initial commit: Protoss micro A-move bot"
+git commit -m "Initial commit: Terran micro A-move bot"
 git branch -M main
 git remote add origin https://github.com/<your-username>/<new-repo>.git
 git push -u origin main
